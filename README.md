@@ -19,10 +19,11 @@
 - **Custom Themes**: Choose from 5 premium color palettes: **Purple** (Default), **Blue**, **Pink**, **Green**, and **Orange**.
 - **Real-time Monitoring**:
   - Live console output with high-contrast log coloring.
-  - Smooth progress bar with accurate frame-by-frame tracking.
+  - Smooth progress bar with accurate frame-by-frame tracking and **ETA Calculation**.
 - **Telegram Integration**: Get notified on your phone when renders are completed, failed, or aborted.
-- **Smart Persistence**: Remembers your Blender path, bot credentials, and theme preferences automatically via `settings.json`.
-- **Flexible Parameters**: Easily configure resolution, samples, FPS, and frame ranges without opening the .blend file.
+- **Smart Persistence**: Remembers all your settings including Blender path, render parameters, and theme preferences.
+- **Drag & Drop Support**: Quickly load `.blend` files by dropping them into the window.
+- **Modular Architecture**: Cleanly separated code for settings, worker threads, and UI.
 
 ---
 
